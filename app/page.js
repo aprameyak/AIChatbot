@@ -53,10 +53,6 @@ export default function Home() {
       }
     } catch (error) {
       console.error('Error:', error)
-      setMessages((messages) => [
-        ...messages,
-        { role: 'assistant', content: "I'm sorry, but I encountered an error. Please try again later." },
-      ])
     }
   }
 
