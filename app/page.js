@@ -1,4 +1,5 @@
 'use client'
+import { ClerkProvider, SignIn, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { Box, Button, Stack, TextField } from '@mui/material'
 import { useState } from 'react'
 
@@ -56,6 +57,25 @@ export default function Home() {
   }
 
   return (
+    <ClerkProvider>
+    <SignedOut>
+      <Box
+        width="100vw"
+        height="100vh"
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <SignIn routing="hash" /> 
+      </Box>
+    </SignedOut>
+    <SignedIn>
+    <Box display="flex" alignItems="right" justifyContent="right">
+      <header>
+        <UserButton showName />
+      </header>
+    </Box>
     <Box
       width="100vw"
       height="100vh"
@@ -115,5 +135,7 @@ export default function Home() {
         </Stack>
       </Stack>
     </Box>
+    </SignedIn>
+    </ClerkProvider>
   )
 }
