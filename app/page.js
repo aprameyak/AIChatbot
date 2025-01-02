@@ -13,7 +13,7 @@ export default function Home() {
   const [message, setMessage] = useState('')
 
   const sendMessage = async () => {
-    if (!message.trim()) return;  // Don't send empty messages
+    if (!message.trim()) return;  
   
     setMessage('')
     setMessages((messages) => [
