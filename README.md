@@ -1,1 +1,1 @@
-
+Built an artificial intelligence chatbot with the capabilities of ChatGPT, Gemini, or Copilot via OpenAI's GPT-4o model. Delivered a modular component for use in a variety of applications using React.js. Compatibility with specific knowledge bases for the addition of RAG.
