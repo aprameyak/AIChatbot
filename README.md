@@ -16,4 +16,8 @@ The AI Chatbot is a powerful conversational agent built using OpenAI's GPT-4 mod
 - **Backend**: Node.js (API for handling GPT-4 model requests)
 - **AI Model**: OpenAI GPT-4 (with RAG integration)
 - **Authentication**: Clerk (for secure login)
-- **Hosting**: Vercel 
+- **Hosting**: Vercel
+
+## Live Deployment
+
+- **View Here**: https://chatbot-six-sooty.vercel.app/
