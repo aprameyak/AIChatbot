@@ -2,7 +2,6 @@
 
 The AI Chatbot is a powerful conversational agent built using OpenAI's GPT-4 model, offering advanced capabilities similar to ChatGPT, Gemini, or Copilot. Designed to be modular and highly customizable, this chatbot can be integrated into a wide range of applications. It supports various conversational tasks and is compatible with specific knowledge bases for the addition of Retrieval-Augmented Generation (RAG) to enhance its responses.
 
-![AI Badge](https://img.shields.io/badge/AI-OpenAI%20GPT-4-blueviolet)
 ![Frontend Badge](https://img.shields.io/badge/Frontend-React.js-green)
 ![Backend Badge](https://img.shields.io/badge/Backend-Node.js-blue)
 ![Authentication Badge](https://img.shields.io/badge/Authentication-Clerk-orange)
