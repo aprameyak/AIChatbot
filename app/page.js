@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { ClerkProvider, SignIn, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 import { Box, Button, Stack, TextField } from '@mui/material'
 import { useState } from 'react'
@@ -67,7 +67,7 @@ export default function Home() {
         justifyContent="center"
         alignItems="center"
       >
-        <SignIn routing="hash" /> 
+  <SignIn routing="hash" />
       </Box>
     </SignedOut>
     <SignedIn>

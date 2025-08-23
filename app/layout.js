@@ -1,14 +1,12 @@
+
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata = {
   title: "AI Chatbot",
   description: "AI Chatbot",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
