@@ -27,4 +27,4 @@ The AI Chatbot is a powerful conversational agent built using OpenAI's GPT-4 mod
 
 ## Live Deployment
 
-- **View Here**: [Chatbot Live](https://chatbot-six-sooty.vercel.app/)
+- **View Here**: [Chatbot Live](https://wrapper-chatbot.vercel.app/)
