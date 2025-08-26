@@ -7,7 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AI Chatbot",
-  description: "AI Chatbot",
+  description: "AI Chatbot - Your intelligent conversation partner",
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
 };
 
 interface RootLayoutProps {

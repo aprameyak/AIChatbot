@@ -1,7 +1,8 @@
 "use client"
 import { ClerkProvider, SignIn, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
-import { Box, Button, Stack, TextField } from '@mui/material'
+import { Box, Button, Stack, TextField, Typography } from '@mui/material'
 import { useState } from 'react'
+import { Icon } from './components/Icon'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -80,10 +81,14 @@ export default function Home() {
       </Box>
     </SignedOut>
     <SignedIn>
-    <Box display="flex" alignItems="right" justifyContent="right">
-      <header>
-        <UserButton showName />
-      </header>
+    <Box display="flex" alignItems="center" justifyContent="space-between" p={2} borderBottom="1px solid #e0e0e0">
+      <Box display="flex" alignItems="center" gap={2}>
+        <Icon size={40} />
+        <Typography variant="h5" fontWeight="bold" color="primary.main">
+          AI Chatbot
+        </Typography>
+      </Box>
+      <UserButton showName />
     </Box>
     <Box
       width="100vw"
