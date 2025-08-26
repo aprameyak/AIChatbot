@@ -3,16 +3,21 @@ import { ClerkProvider, SignIn, SignInButton, SignedIn, SignedOut, UserButton } 
 import { Box, Button, Stack, TextField } from '@mui/material'
 import { useState } from 'react'
 
+interface Message {
+  role: 'user' | 'assistant'
+  content: string
+}
+
 export default function Home() {
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
       content: "Hi! I'm a chat assistant. How can I help you today?",
     },
   ])
-  const [message, setMessage] = useState('')
+  const [message, setMessage] = useState<string>('')
 
-  const sendMessage = async () => {
+  const sendMessage = async (): Promise<void> => {
     if (!message.trim()) return;  
   
     setMessage('')
@@ -35,7 +40,11 @@ export default function Home() {
         throw new Error('Network response was not ok')
       }
   
-      const reader = response.body.getReader()
+      const reader = response.body?.getReader()
+      if (!reader) {
+        throw new Error('Response body is null')
+      }
+      
       const decoder = new TextDecoder()
   
       while (true) {
