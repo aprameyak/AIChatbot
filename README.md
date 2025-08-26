@@ -4,7 +4,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)
 ![Clerk](https://img.shields.io/badge/Clerk-F46A35?logo=clerk&logoColor=white&style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
-![Typescript](https://img.shields.io/badge/Typescript-F46A39?logo=vercel&logoColor=white&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
 
 
 ## About
