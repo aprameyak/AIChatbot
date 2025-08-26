@@ -13,17 +13,14 @@ The AI Chatbot is a powerful conversational agent built using OpenAI's GPT-4 mod
 
 ## Features
 
-- **AI-Powered Conversations**: Built on OpenAI's GPT-4 model, offering high-quality responses  
 - **Modular Design**: Easily reusable as a component for multiple applications  
-- **RAG Compatibility**: Integrates with specific knowledge bases to provide more accurate and context-aware answers  
 - **Frontend Integration**: Developed with React.js for seamless integration into web applications  
 - **Customizable Parameters**: Fine-tune temperature, maxTokens, and top_p for optimal response generation
 
 ## Technology Stack
 
 - **Frontend**: React.js  
-- **Backend**: Node.js (API for handling GPT-4 model requests)  
-- **AI Model**: OpenAI GPT-4 (with RAG integration)  
+- **Backend**: Node.js  
 - **Authentication**: Clerk  
 - **Hosting**: Vercel
 
