@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   title: "AI Chatbot",
   description: "AI Chatbot - Your intelligent conversation partner",
   icons: {
-    icon: '/icon.svg',
-    shortcut: '/icon.svg',
-    apple: '/icon.svg',
+    icon: '/icon.svg?v=2',
+    shortcut: '/icon.svg?v=2',
+    apple: '/icon.svg?v=2',
   },
 };
 
