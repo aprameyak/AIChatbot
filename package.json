@@ -15,7 +15,7 @@
     "@google/generative-ai": "^0.24.1",
     "@mui/material": "^7.2.0",
     "@vercel/analytics": "^1.5.0",
-    "next": "^15.4.5",
+    "next": "^15.5.28",
     "openai": "^4.55.4",
     "react": "^18",
     "react-dom": "^18"
@@ -25,7 +25,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^9.32.0",
-    "eslint-config-next": "^15.4.5",
+    "eslint-config-next": "^15.5.28",
     "typescript": "^5"
   }
 }
