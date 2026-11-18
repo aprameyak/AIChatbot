@@ -14,11 +14,13 @@
     "@emotion/styled": "^11.14.1",
     "@google/generative-ai": "^0.24.1",
     "@mui/material": "^7.2.0",
+    "@opennextjs/cloudflare": "^1.20.17",
     "@vercel/analytics": "^1.5.0",
     "next": "^15.5.28",
     "openai": "^4.55.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "wrangler": "^4.164.0"
   },
   "devDependencies": {
     "@types/node": "^20",
