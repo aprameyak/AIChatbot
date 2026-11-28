@@ -30,4 +30,4 @@
 
 ## Deployment
 
-Visit the live site at [https://chatbot.aprameyak.workers.dev](https://chatbot.aprameyak.workers.dev)
+Visit the live site at [https://chatbot.aprameyakannan.com](https://chatbot.aprameyakannan.com)
